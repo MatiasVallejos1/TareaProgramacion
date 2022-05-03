@@ -51,10 +51,7 @@ namespace ClienteHolaMundoS
             if (clienteSocket.Conectar())
             {
                 Console.WriteLine("Conectado...");
-                while (true)
-                {
-                    GenerarChat(clienteSocket);
-                }
+                GenerarChat(clienteSocket);
             }
             else
             {

@@ -25,6 +25,11 @@ namespace HolaMundoSocket
                 else
                 {
                     Console.WriteLine("El cliente Dice: {0}", mensaje);
+                    if (mensaje.ToLower().Equals("chao"))
+                    {
+                        cliente.Desconectar();
+                        terminar = true;
+                    }
                 }
                 respuesta = Console.ReadLine().Trim();
                 cliente.Escribir(respuesta);
