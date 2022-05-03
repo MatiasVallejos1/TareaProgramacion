@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundoSocket", "HolaMundoSocket\HolaMundoSocket.csproj", "{C10EAA4A-D3BD-486F-813D-D6D2F6D452C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteHolaMundoS", "ClienteHolaMundoS\ClienteHolaMundoS.csproj", "{AC7F48DB-CBB5-4BEC-A30B-29DF1EA5611C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C10EAA4A-D3BD-486F-813D-D6D2F6D452C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10EAA4A-D3BD-486F-813D-D6D2F6D452C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10EAA4A-D3BD-486F-813D-D6D2F6D452C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10EAA4A-D3BD-486F-813D-D6D2F6D452C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7F48DB-CBB5-4BEC-A30B-29DF1EA5611C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7F48DB-CBB5-4BEC-A30B-29DF1EA5611C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7F48DB-CBB5-4BEC-A30B-29DF1EA5611C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7F48DB-CBB5-4BEC-A30B-29DF1EA5611C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E352A493-690D-491F-949B-B94844CB6B06}
+	EndGlobalSection
+EndGlobal
